@@ -5,12 +5,12 @@ export default function Resume() {
   return (
     <div className="text-black h-screen">
       <Head>
-        <title>Connor Thompson</title>
-        <link rel="icon" href="/connor logo.png" />
+        <title>Erik Thompson</title>
+        <link rel="icon" href="/Ohio-State-Logo-1987-2012.jpg" />
       </Head>
       <div className="flex justify-center items-center h-full">
         <embed
-          src="/Connor Thompson Resume 2025.pdf"
+          src="/SoftwareEngineerResume (1).pdf"
           type="application/pdf"
           width="80%"
           height="90%"
