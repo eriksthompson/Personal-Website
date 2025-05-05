@@ -30,8 +30,8 @@ const ResponsiveContent: React.FC = () => {
     <div className="w-full flex flex-col items-center">
 
       <Image
-        src="/Connor.png"
-        alt="Connor Thompson"
+        src="/erik.jpg"
+        alt="Erik Thompson"
         width={isMobile ? 150 : 250}
         height={isMobile ? 150 : 250}
         className="rounded-full"
@@ -40,7 +40,7 @@ const ResponsiveContent: React.FC = () => {
       <h1 className={`mt-4 font-mono ${isMobile ? "text-2xl" : "text-5xl"}`}>
         <Typewriter
           options={{
-            strings: ["Hi, I'm Connor."],
+            strings: ["Hi, I'm Erik."],
             autoStart: true,
             loop: true,
             cursor: "|",
@@ -53,14 +53,14 @@ const ResponsiveContent: React.FC = () => {
       >
         <FadeIn>
           <div className="flex flex-wrap items-center justify-center gap-2 text-center">
-            <p className="w-full sm:w-auto">Full Stack Developer</p>
+            <p className="w-full sm:w-auto">Software Engineer</p>
             <span className="hidden sm:inline text-gray-400">•</span>
             <div className="flex items-center justify-center gap-2 w-full sm:w-auto">
-              <Image alt="IU Logo" src="/iulogo.png" width={24} height={24} />
+              <Image alt="IU Logo" src="/Ohio-State-Logo-1987-2012.jpg" width={24} height={24} />
               <p>Computer Science '26</p>
             </div>
             <span className="hidden sm:inline text-gray-400">•</span>
-            <p className="w-full sm:w-auto">Building my AI / ML Skillset</p>
+            <p className="w-full sm:w-auto">Building my Data Science and Software Engineering Skills.</p>
           </div>
         </FadeIn>
       </div>
@@ -69,7 +69,7 @@ const ResponsiveContent: React.FC = () => {
         <FadeIn>
           <div className="flex space-x-6">
             <Link
-              href="https://github.com/conthom"
+              href="https://github.com/eriksthompson"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-gray-400"
@@ -77,7 +77,7 @@ const ResponsiveContent: React.FC = () => {
               <FaGithub className="w-8 h-8 md:w-10 md:h-10" />
             </Link>
             <Link
-              href="https://linkedin.com/in/connorthompson26"
+              href="https://www.linkedin.com/in/erik-thompson-43141918a/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-gray-400"
@@ -85,7 +85,7 @@ const ResponsiveContent: React.FC = () => {
               <FaLinkedin className="w-8 h-8 md:w-10 md:h-10" />
             </Link>
             <Link
-              href="https://leetcode.com/u/connorhonor/"
+              href="https://www.hackerrank.com/profile/erikthompson1231"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-gray-400"
@@ -121,9 +121,7 @@ const ResponsiveContent: React.FC = () => {
           <p
             className={`mt-4 rounded-full bg-black bg-opacity-30 p-4 ${isMobile ? "max-w-xs text-base" : "max-w-lg text-xl"}`}
           >
-            I specialize in full-stack software development using JavaScript,
-            React, and Next.js, with backend experience in Python, Flask,
-            Firebase, and PostgreSQL.
+            I specialize in databases with knowledge of SQL in addition to being skilled at data science and AI with Python.
           </p>
         </FadeIn>
       <div className="w-full bg-black bg-opacity-30 rounded-full mt-6 px-4 md:px-8 lg:px-16">
