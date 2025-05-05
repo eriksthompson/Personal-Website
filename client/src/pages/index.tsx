@@ -6,8 +6,8 @@ export default function Index() {
   return (
     <div style={{ overflowX: "hidden" }} className="min-h-[125vh]">
       <Head>
-        <title>Connor Thompson</title>
-        <link rel="icon" href="/connor logo.png" />
+        <title>Erik Thompson</title>
+        <link rel="icon" href="/Ohio-State-Logo-1987-2012.jpg" />
       </Head>
       <Intro />
     </div>
