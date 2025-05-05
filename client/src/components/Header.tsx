@@ -41,14 +41,14 @@ export function Header() {
         )}
       >
         <Link href="/" className="flex items-center space-x-2 sm:space-x-3 group">
-          <Image src="/connor logo.png" alt="Connor Logo" width={35} height={35} />
+          <Image src="/Ohio-State-Logo-1987-2012.jpg.png" alt="Erik Logo" width={35} height={35} />
           <span
             className={cn(
               "font-mono text-xl sm:text-3xl font-bold transition-colors",
               scrolled ? "text-white" : "text-gray-300 group-hover:text-white"
             )}
           >
-            Connor Thompson
+            Erik Thompson
           </span>
         </Link>
 
