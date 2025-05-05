@@ -66,8 +66,8 @@ const About = () => {
   return (
     <div className="min-h-screen bg-gray-700 scroll-smooth">
       <Head>
-        <title>Connor Thompson</title>
-        <link rel="icon" href="/connor logo.png" />
+        <title>Erik Thompson</title>
+        <link rel="icon" href="/Ohio-State-Logo-1987-2012.jpg" />
       </Head>
       <div className="pt-24 px-4 md:px-10 pb-8">
         <div className="max-w-3xl mx-auto">
@@ -80,37 +80,35 @@ const About = () => {
             </h1>
             <div className="text-white">
               <p className="text-lg">
-                Hi, I'm <b>Connor Thompson</b>,
-                <br />a Computer Science student at{" "}
+                Hi, I'm <b>Erik Thompson</b>,
+                <br />a Computer Science graduate of{" "}
                 <a
-                  href="https://www.indiana.edu/"
+                  href="https://www.osu.edu/"
                   className="text-blue-400 underline"
                 >
-                  Indiana University Bloomington
+                  The Ohio State University Columbus Campus
                 </a>
-                , specializing in software engineering to expand my real-world
+                , specializing in Databases and Data Science to expand my real-world
                 problem-solving skills.
               </p>
               <p className="text-lg mt-5 mb-5">More things about me:</p>
               <ul className="list-disc list-inside space-y-2">
                 <li>
-                  I'm seeking internship opportunities to develop my experience
+                  I'm seeking job opportunities to develop my experience
                   in the tech field.
                 </li>
                 <li>
                   I'm involved with the{" "}
                   <a
-                    href="https://www.navigators.org/"
+                    href="https://osucyber.club/"
                     className="text-blue-400 underline"
                   >
-                    Navigators
+                    Cybersecurity Club
                   </a>{" "}
-                  (a Christian organization on campus) and occasionally the
-                  Chess Club at IU.
+                   a club with interactive cybersecurity training and practice events.
                 </li>
                 <li>
-                  In my free time, I enjoy a good audiobook, running, video
-                  games, and music.
+                  In my free time, I enjoy playing League of Legends and Legion TD 2 on Steam App.
                 </li>
               </ul>
             </div>
