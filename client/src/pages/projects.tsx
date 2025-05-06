@@ -8,7 +8,7 @@ export default function Projects() {
             <ProjectCard
               title="Data Mining Project 1,2,4 and 5"
               description="Data mining for Appendicitis hospital stay patient data, Unnamed charts, and Instacart Grocery Marketbasket. With instruction from Professor Bihari SP2024"
-              image="/gantt-chart.png"
+              image="/kmeansChart.PNG"
               link="https://github.com/eriksthompson/dataMiningProject1"
               projectUrl="/datamining1"
               tags={["Data Mining", "Anaconda Jupyter Notebook", "Python"]}
