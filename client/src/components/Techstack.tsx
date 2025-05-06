@@ -10,6 +10,7 @@ import {
   SiVercel,
   SiJavascript,
   SiReact,
+  SiNextdotjs
 } from "react-icons/si";
 
 export default function TechStack() {
@@ -24,6 +25,8 @@ export default function TechStack() {
     { icon: <SiJavascript className="w-8 h-8" />, name: "Javascript" }, 
     { icon: <SiReact className="w-8 h-8" />, name: "React" },
     { icon: <SiVercel className="w-8 h-8" />, name: "Vercel" },
+    { icon: <SiNextdotjs className="w-8 h-8" />, name: "Next.js" },
+    { icon: <SiRubyonrails className="w-8 h-8" />, name: "Ruby on Rails" }
   ];
 
   // Create three sets of icons for seamless infinite scroll
