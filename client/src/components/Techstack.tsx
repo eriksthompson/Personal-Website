@@ -3,7 +3,7 @@ import {
   
   SiPython,
   SiAnaconda,
-  SiPyTorch,
+  SiPytorch,
   SiTensorflow,
   SiNumpy,
   SiPandas,
@@ -17,7 +17,7 @@ export default function TechStack() {
    
     { icon: <SiPython className="w-8 h-8" />, name: "Python" },
     { icon: <SiAnaconda className="w-8 h-8" />, name: "Anaconda" },
-    { icon: <SiPyTorch className="w-8 h-8" />, name: "PyTorch" },
+    { icon: <SiPytorch className="w-8 h-8" />, name: "Pytorch" },
     { icon: <SiTensorflow className="w-8 h-8" />, name: "Tensorflow" },
     { icon: <SiNumpy className="w-8 h-8" />, name: "Numpy" },
     { icon: <SiPandas className="w-8 h-8" />, name: "Pandas" },
