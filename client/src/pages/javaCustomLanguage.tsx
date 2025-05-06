@@ -2,39 +2,6 @@ import Head from "next/head";
 import React, { useEffect, useState } from "react";
 
 export default function javaCustomLanguage() {
-  const [iframeHeight, setIframeHeight] = useState("calc(100vh - 300px)");
-
-  useEffect(() => {
-    // Adjust iframe height based on header height and description section
-    const updateIframeHeight = () => {
-      const headerElement = document.querySelector("header");
-      const descriptionElement = document.querySelector(".description-section");
-
-      const headerHeight = headerElement
-        ? (headerElement as HTMLElement).offsetHeight
-        : 80;
-      const descriptionHeight = descriptionElement
-        ? (descriptionElement as HTMLElement).offsetHeight
-        : 220;
-
-      // Add extra padding to ensure enough space
-      setIframeHeight(
-        `calc(100vh - ${headerHeight + descriptionHeight + 40}px)`,
-      );
-    };
-
-    // Run after a short delay to ensure all elements are rendered
-    const timer = setTimeout(() => {
-      updateIframeHeight();
-    }, 100);
-
-    window.addEventListener("resize", updateIframeHeight);
-
-    return () => {
-      clearTimeout(timer);
-      window.removeEventListener("resize", updateIframeHeight);
-    };
-  }, []);
 
   return (
     <div className="flex flex-col min-h-screen bg-gray-800">
@@ -88,21 +55,53 @@ export default function javaCustomLanguage() {
       </div>
 
       <main className="flex-grow w-full p-4 pt-8">
-        <div className="max-w-7xl mx-auto bg-white rounded-lg shadow-lg overflow-hidden mt-6">
-          <iframe
-            src="https://javaCustomLanguage.vercel.app/"
-            title="Custom Language"
-            className="w-full border-none"
-            style={{
-              height: iframeHeight,
-              display: "block",
-              minHeight: "1000px", // Ensure minimum height
-            }}
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          />
+        <div className="grid md:grid-cols-2 gap-6 mb-8">
+            <div className="relative w-full" style={{ height: "500px" }}>
+              <Image
+                src="/mainCustomLanguage.PNG"
+                alt="Main class with Parser and Executor."
+                layout="fill"
+                objectFit="contain"
+                objectPosition="center"
+                className="rounded-md"
+              />
+            </div>
+
+            <div className="relative w-full" style={{ height: "500px" }}>
+              <Image
+                src="/StmtSeq.PNG"
+                alt="Statement Sequence behind the scenes."
+                layout="fill"
+                objectFit="contain"
+                objectPosition="center"
+                className="rounded-md"
+              />
+            </div>
+          </div>
+
+          <div className="relative w-full mb-8" style={{ height: "300px" }}>
+            <Image
+              src="/function.PNG"
+              alt="Function behind the scenes."
+              layout="fill"
+              objectFit="contain"
+              objectPosition="center"
+              className="rounded-md"
+            />
+          </div>
+          <div className="relative w-full mb-8" style={{ height: "300px" }}>
+            <Image
+              src="/Scanner.PNG"
+              alt="Custom Scanner"
+              layout="fill"
+              objectFit="contain"
+              objectPosition="center"
+              className="rounded-md"
+            />
+          </div>
         </div>
       </main>
+       
     </div>
   );
 }
