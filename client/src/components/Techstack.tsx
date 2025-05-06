@@ -1,31 +1,29 @@
 import React from "react";
 import {
-  SiNextdotjs,
-  SiReact,
+  
   SiPython,
-  SiFlask,
-  SiPostgresql,
-  SiFirebase,
-  SiTypescript,
-  SiNodedotjs,
-  SiTailwindcss,
+  SiAnaconda,
+  SiPyTorch,
+  SiTensorflow,
+  SiNumpy,
+  SiPandas,
   SiVercel,
-  SiRender,
+  SiJavascript,
+  SiReact,
 } from "react-icons/si";
 
 export default function TechStack() {
   const technologies = [
-    { icon: <SiReact className="w-8 h-8" />, name: "React" },
-    { icon: <SiTailwindcss className="w-8 h-8" />, name: "Tailwind" },
-    { icon: <SiNextdotjs className="w-8 h-8" />, name: "Next.js" },
+   
     { icon: <SiPython className="w-8 h-8" />, name: "Python" },
-    { icon: <SiFlask className="w-8 h-8" />, name: "Flask" },
-    { icon: <SiTypescript className="w-8 h-8" />, name: "TypeScript" },
-    { icon: <SiNodedotjs className="w-8 h-8" />, name: "Node.js" },
+    { icon: <SiAnaconda className="w-8 h-8" />, name: "Anaconda" },
+    { icon: <SiPyTorch className="w-8 h-8" />, name: "PyTorch" },
+    { icon: <SiTensorflow className="w-8 h-8" />, name: "Tensorflow" },
+    { icon: <SiNumpy className="w-8 h-8" />, name: "Numpy" },
+    { icon: <SiPandas className="w-8 h-8" />, name: "Pandas" },
+    { icon: <SiJavascript className="w-8 h-8" />, name: "Javascript" }, 
+    { icon: <SiReact className="w-8 h-8" />, name: "React" },
     { icon: <SiVercel className="w-8 h-8" />, name: "Vercel" },
-    { icon: <SiRender className="w-8 h-8" />, name: "Render" },
-    { icon: <SiPostgresql className="w-8 h-8" />, name: "PostgreSQL" },
-    { icon: <SiFirebase className="w-8 h-8" />, name: "Firebase" },
   ];
 
   // Create three sets of icons for seamless infinite scroll
