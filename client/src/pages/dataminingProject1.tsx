@@ -2,12 +2,12 @@ import Head from "next/head";
 import React from "react";
 import Image from "next/image";
 
-export default function GroceryApp() {
+export default function dataminingProject1() {
   return (
     <div className="flex flex-col min-h-screen bg-gray-800">
       <Head>
         <title>Data Mining Project 1 | Erik Thompson</title>
-        <link rel="icon" href="/connor logo.png" />
+        <link rel="icon" href="/Ohio-State-Logo-1987-2012.jpg" />
         <meta
           name="description"
           content="Multiple data mining jupyter notebook pages with varying topics"
