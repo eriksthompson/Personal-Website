@@ -7,7 +7,7 @@ export default function Projects() {
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             <ProjectCard
               title="Data Mining Project 1,2,4 and 5"
-              description="Data mining for Appendicitis hospital stay patient data, Unnamed charts, and Instacart Grocery Marketbasket."
+              description="Data mining for Appendicitis hospital stay patient data, Unnamed charts, and Instacart Grocery Marketbasket. With instruction from Professor Bihari SP2024"
               image="/gantt-chart.png"
               link="https://github.com/eriksthompson/dataMiningProject1"
               projectUrl="/datamining1"
