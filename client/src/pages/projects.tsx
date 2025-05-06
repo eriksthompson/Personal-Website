@@ -6,12 +6,12 @@ export default function Projects() {
         <div className="container px-4 md:px-6">
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             <ProjectCard
-              title="G4NTT - AI Business Action Plan Generator"
-              description="Web app for business action plan generation using a Gantt chart. Placed 2nd in Luddy hackathon 2024. Made with Sky Angeles and Nicholas Goh."
+              title="Data Mining Project 1,2,4 and 5"
+              description="Data mining for Appendicitis hospital stay patient data, Unnamed charts, and Instacart Grocery Marketbasket."
               image="/gantt-chart.png"
-              link="https://github.com/skaiiFlakes/Luddy-Hackathon-Fall-2024"
-              projectUrl="/gantt"
-              tags={["Next.js", "AI", "Gantt Charts"]}
+              link="https://github.com/eriksthompson/dataMiningProject1"
+              projectUrl="/datamining1"
+              tags={["Data Mining", "Anaconda Jupyter Notebook", "Python"]}
             />
             <ProjectCard
               title="Matrix Reduction Practicer"
