@@ -34,7 +34,7 @@ export default function GroceryApp() {
                 </li>
                 <li>Solve a business problem by creating, evaluating, and comparing three classification models, and produce the outputs needed to provide business value for your stakeholders.</li>
                 <li>Experiment with built-in classification models in scikit-learn.</li>
-                <li>Link to dataset - <link href="https://archive.ics.uci.edu/datasets?search=Regensburg%20Pediatric%20Appendicitis" archive.ics.uci.edu/datasets?search=Regensburg%20Pediatric%20Appendicitis /></li>
+                <li>Link to dataset https://archive.ics.uci.edu/datasets?search=Regensburg%20Pediatric%20Appendicitis</li>
               </ul>
             </div>
             <div>
