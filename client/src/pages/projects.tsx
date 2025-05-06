@@ -14,12 +14,12 @@ export default function Projects() {
               tags={["Data Mining", "Anaconda Jupyter Notebook", "Python"]}
             />
             <ProjectCard
-              title="Matrix Reduction Practicer"
-              description="A web app to help students practice row reduction of matrices, a fundamental skill in linear algebra."
-              image="/matrixss.png"
-              link="https://github.com/conthom/Matrix-reduction-practice-platform"
-              projectUrl="/matrixpracticer"
-              tags={["Next.js", "Linear Algebra", "Education"]}
+              title="Custom Language made with Java"
+              description="A custom language with Parser and Executor and records for memory."
+              image="/mainCustomLanguage.PNG"
+              link="https://github.com/eriksthompson/CSELanguageParser"
+              projectUrl="/CustomLanguage"
+              tags={["Computer Science & Engineering", "Languages", "Java"]}
             />
             <ProjectCard
               title="Community Grocery List App"
