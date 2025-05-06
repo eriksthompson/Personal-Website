@@ -56,8 +56,8 @@ const ResponsiveContent: React.FC = () => {
             <p className="w-full sm:w-auto">Software Engineer</p>
             <span className="hidden sm:inline text-gray-400">•</span>
             <div className="flex items-center justify-center gap-2 w-full sm:w-auto">
-              <Image alt="IU Logo" src="/Ohio-State-Logo-1987-2012.jpg" width={24} height={24} />
-              <p>Computer Science '26</p>
+              <Image alt="tOSU Logo" src="/Ohio-State-Logo-1987-2012.jpg" width={24} height={24} />
+              <p>Computer Science '24</p>
             </div>
             <span className="hidden sm:inline text-gray-400">•</span>
             <p className="w-full sm:w-auto">Building my Data Science and Software Engineering Skills.</p>
