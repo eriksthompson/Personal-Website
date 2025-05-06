@@ -113,8 +113,8 @@ export default function GroceryApp() {
           <div className="grid md:grid-cols-2 gap-6 mb-8">
             <div className="relative w-full" style={{ height: "500px" }}>
               <Image
-                src="/groceryliststart.png"
-                alt="Grocery List App Start Screen"
+                src="/datamining1charts.PNG"
+                alt="Appendicitis Initial Discoveries"
                 layout="fill"
                 objectFit="contain"
                 objectPosition="center"
@@ -124,8 +124,8 @@ export default function GroceryApp() {
 
             <div className="relative w-full" style={{ height: "500px" }}>
               <Image
-                src="/grocerylistss.png"
-                alt="Grocery List App Screens"
+                src="/hw2OptimalEstimators.PNG"
+                alt="Optimal Estimators for Random Forest Estimator"
                 layout="fill"
                 objectFit="contain"
                 objectPosition="center"
@@ -136,8 +136,18 @@ export default function GroceryApp() {
 
           <div className="relative w-full mb-8" style={{ height: "300px" }}>
             <Image
-              src="/groceryconsistency.png"
-              alt="Grocery List App Horizontal Screen"
+              src="/kmeansChart.PNG"
+              alt="KMeans Algorithm Results for K =3 best"
+              layout="fill"
+              objectFit="contain"
+              objectPosition="center"
+              className="rounded-md"
+            />
+          </div>
+          <div className="relative w-full mb-8" style={{ height: "300px" }}>
+            <Image
+              src="/netProfitHW5.PNG"
+              alt="Net Profit for Grocery Store"
               layout="fill"
               objectFit="contain"
               objectPosition="center"
