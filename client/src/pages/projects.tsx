@@ -18,7 +18,7 @@ export default function Projects() {
               description="A custom language with Parser and Executor and records for memory."
               image="/mainCustomLanguage.PNG"
               link="https://github.com/eriksthompson/CSELanguageParser"
-              projectUrl="/CustomLanguage"
+              projectUrl="/javaCustomLanguage"
               tags={["Computer Science & Engineering", "Languages", "Java"]}
             />
             <ProjectCard
