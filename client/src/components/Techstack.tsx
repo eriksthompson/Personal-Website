@@ -10,7 +10,8 @@ import {
   SiVercel,
   SiJavascript,
   SiReact,
-  SiNextdotjs
+  SiNextdotjs,
+  SiRubyonrails
 } from "react-icons/si";
 
 export default function TechStack() {
