@@ -22,12 +22,12 @@ export default function Projects() {
               tags={["Computer Science & Engineering", "Languages", "Java"]}
             />
             <ProjectCard
-              title="Community Grocery List App"
-              description="A grocery list Android app featuring seven screens for efficient list management and sharing."
-              image="/grocerylistss.png"
-              link="https://github.com/conthom/App-dev/tree/main/Grocery%20List%20App"
-              projectUrl="/groceryapp"
-              tags={["Android", "Kotlin", "Community"]}
+              title="Wikipedia AI Chatbot"
+              description="A wikipedia powered AI Chatbot that answers questions with top three answers."
+              image="/chatbot.png"
+              link="https://github.com/eriksthompson/question-answer-chatbot/tree/main"
+              projectUrl="/wikipediaAI"
+              tags={["Natural Language Processing", "AI", "Python"]}
             />
           </div>
         </div>
