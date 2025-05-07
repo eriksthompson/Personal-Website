@@ -14,7 +14,7 @@ export default function javaCustomLanguage() {
         />
       </Head>
 
-    <main className="flex-grow w-full p-4 pt-8">
+    
       <div className="description-section bg-gradient-to-r from-blue-900 to-purple-900 text-white py-8 px-4 md:px-8 mt-20">
         <div className="max-w-5xl mx-auto">
           <h1 className="text-3xl md:text-4xl font-bold mb-4">
@@ -54,6 +54,7 @@ export default function javaCustomLanguage() {
           </div>
         </div>
       </div>
+      <main className="flex-grow w-full p-4 pt-8">
         <div className="grid md:grid-cols-2 gap-6 mb-8">
             <div className="relative w-full" style={{ height: "500px" }}>
               <Image
