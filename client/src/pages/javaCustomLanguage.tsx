@@ -78,7 +78,7 @@ export default function javaCustomLanguage() {
               />
             </div>
           </div>
-
+        <div className="grid md:grid-cols-2 gap-6 mb-8">
           <div className="relative w-full mb-8" style={{ height: "300px" }}>
             <Image
               src="/function.PNG"
