@@ -53,8 +53,6 @@ export default function javaCustomLanguage() {
           </div>
         </div>
       </div>
-
-      <main className="flex-grow w-full p-4 pt-8">
         <div className="grid md:grid-cols-2 gap-6 mb-8">
             <div className="relative w-full" style={{ height: "500px" }}>
               <Image
@@ -100,7 +98,7 @@ export default function javaCustomLanguage() {
             />
           </div>
         </div>
-      </main>
+      
        
     </div>
   );
