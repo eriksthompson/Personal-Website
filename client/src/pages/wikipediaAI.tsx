@@ -48,7 +48,7 @@ export default function wikipediaAI() {
         <div className="grid md:grid-cols-2 gap-6 mb-8">
             <div className="relative w-full" style={{ height: "500px" }}>
               <Image
-                src="/chatbot.PNG"
+                src="/chatBot.PNG"
                 alt="Main class with Parser and Executor."
                 layout="fill"
                 objectFit="contain"
