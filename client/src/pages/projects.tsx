@@ -24,7 +24,7 @@ export default function Projects() {
             <ProjectCard
               title="Wikipedia AI Chatbot"
               description="A wikipedia powered AI Chatbot that answers questions with top three answers."
-              image="/chatbot.png"
+              image="/chatBot.PNG"
               link="https://github.com/eriksthompson/question-answer-chatbot/tree/main"
               projectUrl="/wikipediaAI"
               tags={["Natural Language Processing", "AI", "Python"]}
