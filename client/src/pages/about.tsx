@@ -8,6 +8,9 @@ function ContactForm() {
       return <p>Thanks for messaging me!</p>;
   }
   return (
+     <div className="pt-24 px-4 md:px-10 pb-8">
+        <div className="max-w-3xl mx-auto">
+          <div className="bg-gray-800 rounded-lg p-6 mb-8">
     <div className="bg-gray-800 rounded-lg p-6 max-w-md mx-auto">
         <h2 className="text-3xl mb-4 text-white">Contact Me</h2>
           <form onSubmit={handleSubmit}>
@@ -48,7 +51,10 @@ function ContactForm() {
               </button>
             </form>
    
-      </div> 
+      </div>
+      </div>
+      </div>
+      </div>
   );
 }
 const About = () => {
