@@ -8,7 +8,7 @@ function ContactForm() {
       return <p>Thanks for messaging me!</p>;
   }
   return (
-    <div className="bg-gray-800 rounded-lg p-6 max-w-md mx-auto">
+    
         <h2 className="text-3xl mb-4 text-white">Contact Me</h2>
           <form onSubmit={handleSubmit}>
             <label htmlFor="email">
@@ -56,7 +56,7 @@ const About = () => {
 
   
   return (
-    <div className="min-h-screen bg-gray-700 scroll-smooth">
+<div className="min-h-screen bg-gray-700 scroll-smooth">
       <Head>
         <title>Erik Thompson</title>
         <link rel="icon" href="/Ohio-State-Logo-1987-2012.jpg" />
@@ -103,6 +103,7 @@ const About = () => {
                   In my free time, I enjoy playing League of Legends and Legion TD 2 on Steam App.
                 </li>
               </ul>
+              
             </div>
           </div>
 
@@ -111,6 +112,7 @@ const About = () => {
         </div>
       </div>
     </div>
+        
   );
 };
 
