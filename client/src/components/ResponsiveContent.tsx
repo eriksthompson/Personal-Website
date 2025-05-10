@@ -121,7 +121,7 @@ const ResponsiveContent: React.FC = () => {
           <p
             className={`mt-4 rounded-full bg-black bg-opacity-30 p-4 ${isMobile ? "max-w-xs text-base" : "max-w-lg text-xl"}`}
           >
-            I specialize in databases with knowledge of SQL in addition to being skilled at data science and AI with Python.
+            I specialize in databases with knowledge of SQL, in addition to being skilled at data science and AI with Python.
           </p>
         </FadeIn>
       <div className="w-full bg-black bg-opacity-30 rounded-full mt-6 px-4 md:px-8 lg:px-16">
