@@ -30,7 +30,7 @@ const ResponsiveContent: React.FC = () => {
     <div className="w-full flex flex-col items-center">
 
       <Image
-        src="/erik.jpg"
+        src="/businessPortfolio.jpg"
         alt="Erik Thompson"
         width={isMobile ? 150 : 250}
         height={isMobile ? 150 : 250}
