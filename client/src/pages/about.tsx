@@ -8,33 +8,47 @@ function ContactForm() {
       return <p>Thanks for messaging me!</p>;
   }
   return (
-    <form onSubmit={handleSubmit}>
-      <label htmlFor="email">
-        Email Address
-      </label>
-      <input
-        id="email"
-        type="email" 
-        name="email"
-      />
-      <ValidationError 
-        prefix="Email" 
-        field="email"
-        errors={state.errors}
-      />
-      <textarea
-        id="message"
-        name="message"
-      />
-      <ValidationError 
-        prefix="Message" 
-        field="message"
-        errors={state.errors}
-      />
-      <button type="submit" disabled={state.submitting}>
-        Submit
-      </button>
-    </form>
+    <div className="bg-gray-800 rounded-lg p-6 max-w-md mx-auto">
+        <h2 className="text-3xl mb-4 text-white">Contact Me</h2>
+          <form onSubmit={handleSubmit}>
+            <label htmlFor="email">
+              Email Address:
+            </label>
+            <input
+              id="email"
+              type="email" 
+              name="email"
+              placeholder="Your Email"
+              className="p-2 border border-white bg-gray-700 text-white rounded"
+              required
+            />
+              <ValidationError 
+                prefix="Email" 
+                field="email"
+                errors={state.errors}
+              />
+      </div>
+      <br>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Your Message"
+                className="p-2 border border-white bg-gray-700 text-white rounded"
+                required
+                rows={4}
+              />
+              <ValidationError 
+                prefix="Message" 
+                field="message"
+                errors={state.errors}
+              />
+                  <br>
+              <button type="submit" disabled={state.submitting}
+                className="bg-white text-black py-2 px-4 rounded hover:bg-gray-200 transition-colors">
+                Submit
+              </button>
+            </form>
+      
   );
 }
 const About = () => {
