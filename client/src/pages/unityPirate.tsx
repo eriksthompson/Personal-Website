@@ -57,7 +57,7 @@ export default function unityPirate() {
         <div className="grid md:grid-cols-2 gap-6 mb-8">
             <div className="relative w-full" style={{ height: "500px" }}>
               <Image
-                src="/PirateShipMap.PNG"
+                src="/PirateShipMap.png"
                 alt="Gameplay of Pirate game."
                 layout="fill"
                 objectFit="contain"
@@ -68,7 +68,7 @@ export default function unityPirate() {
 
             <div className="relative w-full" style={{ height: "500px" }}>
               <Image
-                src="/PirateShipMap2.PNG"
+                src="/PirateShipMap2.png"
                 alt="Full map view."
                 layout="fill"
                 objectFit="contain"
@@ -80,7 +80,7 @@ export default function unityPirate() {
         <div className="grid md:grid-cols-2 gap-6 mb-8">
           <div className="relative w-full mb-8" style={{ height: "500px" }}>
             <Image
-              src="/PirateCode.PNG"
+              src="/PirateCode.png"
               alt="Function behind the scenes."
               layout="fill"
               objectFit="contain"
@@ -90,7 +90,7 @@ export default function unityPirate() {
           </div>
           <div className="relative w-full mb-8" style={{ height: "500px" }}>
             <Image
-              src="/PirateCode2.PNG"
+              src="/PirateCode2.png"
               alt="Ray casting with fire function"
               layout="fill"
               objectFit="contain"
