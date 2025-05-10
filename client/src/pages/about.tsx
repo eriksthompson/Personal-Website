@@ -28,7 +28,7 @@ function ContactForm() {
                 errors={state.errors}
               />
      
-      <br>
+            <br>
               <textarea
                 id="message"
                 name="message"
@@ -48,7 +48,7 @@ function ContactForm() {
                 Submit
               </button>
             </form>
-         </div>
+    </div>
       
   );
 }
