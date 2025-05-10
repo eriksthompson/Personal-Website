@@ -8,7 +8,7 @@ function ContactForm() {
       return <p>Thanks for messaging me!</p>;
   }
   return (
-    
+    <div className="bg-gray-800 rounded-lg p-6 max-w-md mx-auto">
         <h2 className="text-3xl mb-4 text-white">Contact Me</h2>
           <form onSubmit={handleSubmit}>
             <label htmlFor="email">
@@ -27,7 +27,7 @@ function ContactForm() {
                 field="email"
                 errors={state.errors}
               />
-      </div>
+     
       <br>
               <textarea
                 id="message"
@@ -48,6 +48,7 @@ function ContactForm() {
                 Submit
               </button>
             </form>
+         </div>
       
   );
 }
@@ -107,11 +108,12 @@ const About = () => {
             </div>
           </div>
 
-          {/* Contact Form */}
-          <ContactForm />
+          
         </div>
       </div>
     </div>
+    {/* Contact Form */}
+    <ContactForm />
         
   );
 };
