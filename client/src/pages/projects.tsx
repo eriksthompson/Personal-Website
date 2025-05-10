@@ -29,6 +29,14 @@ export default function Projects() {
               projectUrl="/wikipediaAI"
               tags={["Natural Language Processing", "AI", "Python"]}
             />
+              <ProjectCard
+              title="Pirate Ship Target Practice"
+              description="A Pirate Ship cannon firing game made in Unity."
+              image="/PirateShipMap.PNG"
+              link="https://github.com/eriksthompson/unityPirates"
+              projectUrl="/unityPirate"
+              tags={["Ray Casting", "C#", "Unity", "3rd Person Camera"]}
+            />
           </div>
         </div>
       </section>
