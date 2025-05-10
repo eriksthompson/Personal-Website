@@ -8,6 +8,7 @@ function ContactForm() {
       return <p>Thanks for messaging me!</p>;
   }
   return (
+    <div className="min-h-screen bg-gray-700 scroll-smooth">
      <div className="pt-24 px-4 md:px-10 pb-8">
         <div className="max-w-3xl mx-auto">
           <div className="bg-gray-800 rounded-lg p-6 mb-8">
@@ -51,6 +52,7 @@ function ContactForm() {
               </button>
             </form>
    
+      </div>
       </div>
       </div>
       </div>
