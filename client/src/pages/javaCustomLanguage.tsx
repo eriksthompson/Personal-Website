@@ -79,7 +79,7 @@ export default function javaCustomLanguage() {
             </div>
           </div>
         <div className="grid md:grid-cols-2 gap-6 mb-8">
-          <div className="relative w-full mb-8" style={{ height: "300px" }}>
+          <div className="relative w-full mb-8" style={{ height: "500px" }}>
             <Image
               src="/function.PNG"
               alt="Function behind the scenes."
@@ -89,7 +89,7 @@ export default function javaCustomLanguage() {
               className="rounded-md"
             />
           </div>
-          <div className="relative w-full mb-8" style={{ height: "300px" }}>
+          <div className="relative w-full mb-8" style={{ height: "500px" }}>
             <Image
               src="/Scanner.PNG"
               alt="Custom Scanner"
