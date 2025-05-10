@@ -133,7 +133,7 @@ export default function dataminingProject1() {
             </div>
           </div>
 
-          <div className="relative w-full mb-8" style={{ height: "300px" }}>
+          <div className="relative w-full mb-8" style={{ height: "500px" }}>
             <Image
               src="/kmeansChart.PNG"
               alt="KMeans Algorithm Results for K =3 best"
@@ -143,7 +143,7 @@ export default function dataminingProject1() {
               className="rounded-md"
             />
           </div>
-          <div className="relative w-full mb-8" style={{ height: "300px" }}>
+          <div className="relative w-full mb-8" style={{ height: "500px" }}>
             <Image
               src="/netProfitHW5.PNG"
               alt="Net Profit for Grocery Store"
