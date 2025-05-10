@@ -10,7 +10,7 @@ export default function Resume() {
       </Head>
       <div className="flex justify-center items-center h-full">
         <embed
-          src="/SoftwareEngineerResume (1).pdf"
+          src="/ComputerScienceRole2.pdf"
           type="application/pdf"
           width="80%"
           height="90%"
