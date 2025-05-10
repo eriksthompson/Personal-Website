@@ -28,7 +28,7 @@ function ContactForm() {
                 errors={state.errors}
               />
      
-            <br>
+            
               <textarea
                 id="message"
                 name="message"
@@ -42,14 +42,13 @@ function ContactForm() {
                 field="message"
                 errors={state.errors}
               />
-                  <br>
               <button type="submit" disabled={state.submitting}
                 className="bg-white text-black py-2 px-4 rounded hover:bg-gray-200 transition-colors">
                 Submit
               </button>
             </form>
-    </div>
-      
+   
+      </div> 
   );
 }
 const About = () => {
