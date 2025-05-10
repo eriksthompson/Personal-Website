@@ -32,7 +32,7 @@ export default function Projects() {
               <ProjectCard
               title="Pirate Ship Target Practice"
               description="A Pirate Ship cannon firing game made in Unity."
-              image="/PirateShipMap.PNG"
+              image="/PirateShipMap.png"
               link="https://github.com/eriksthompson/unityPirates"
               projectUrl="/unityPirate"
               tags={["Ray Casting", "C#", "Unity", "3rd Person Camera"]}
